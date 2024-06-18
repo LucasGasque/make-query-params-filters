@@ -1,0 +1,18 @@
+[project]
+name = "make-query-params-filters"
+authors = [{name = "Lucas Gasque", email = "lucasfdg@hotmail.com"}]
+dynamic = ["version"]
+requires-python = ">=3.9"
+dependencies = [
+    "sqlalchemy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov"
+]
+
+[project.urls]
+Homepage = "https://github.com/LucasGasque/make-query-params-filters"
+Issues = "https://github.com/LucasGasque/make-query-params-filters/issues"
