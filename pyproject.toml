@@ -1,10 +1,6 @@
 [project]
 name = "make-query-params-filters"
 authors = [{name = "Lucas Gasque", email = "lucasfdg@hotmail.com"}]
-
-long_description = "file: README.md"
-long_description_content_type = "text/markdown"
-
 dynamic = ["version"]
 requires-python = ">=3.9"
 dependencies = [
@@ -20,3 +16,7 @@ dev = [
 [project.urls]
 Homepage = "https://github.com/LucasGasque/make-query-params-filters"
 Issues = "https://github.com/LucasGasque/make-query-params-filters/issues"
+
+[tool.setuptools]
+long_description = "file: README.md"
+long_description_content_type = "text/markdown"
