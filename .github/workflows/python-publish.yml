@@ -33,11 +33,11 @@ jobs:
         pip install build
     - name: Lint with flake8
       run: |
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+        flake8 make_query_param_filters --count --select=E9,F63,F7,F82 --show-source --statistics
+        flake8 make_query_param_filters --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest --cov=app --cov-fail-under=90
+        pytest --cov=make_query_param_filters --cov-fail-under=90
     - name: Build package
       run: python -m build
     - name: Publish package
