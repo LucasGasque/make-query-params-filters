@@ -18,3 +18,5 @@ dev = [
 Homepage = "https://github.com/LucasGasque/make-query-params-filters"
 Issues = "https://github.com/LucasGasque/make-query-params-filters/issues"
 
+[tool.setuptools.dynamic]
+version = {attr = "package.__version__"}
