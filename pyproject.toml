@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = [
+test = [
     "pytest",
     "pytest-cov",
     "flake8"
@@ -20,4 +20,4 @@ Homepage = "https://github.com/LucasGasque/make-query-params-filters"
 Issues = "https://github.com/LucasGasque/make-query-params-filters/issues"
 
 [tool.setuptools.dynamic]
-version = {attr = "package.__version__"}
+version = {attr = "make_query_param_filters.__version__"}
